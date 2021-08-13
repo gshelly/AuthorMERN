@@ -1,0 +1,76 @@
+#wrapper{
+  display: inline-block;
+  text-align: left;
+}
+
+.caption {
+  font-size: 17px;
+  color: purple;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contentInput {
+  height: 30px;
+  width: 200px;
+  border: 1px solid #b9b9b9;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cancel_submit {
+  background-color: #66bbff;
+  width: 130px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px 2px;
+}
+
+#result-table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  height: 70px;
+  font-size: 18px;
+  background-color: #d3d3d3;
+  color: white;
+  padding: 0px 10px;
+  text-align: left;
+}
+#result-table tr:nth-of-type(2n+1) {background: white;}
+#result-table tr:nth-of-type(2n+2) {background: #d3d3d3;}
+
+td {
+  height: 70px;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+#result-table {
+  /* width: 300px; */
+  border-collapse: collapse;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.edit-delete {
+  width: 150px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#form-container {
+  display: inline-block;
+  text-align: left;
+}
+
+.error-style {
+  color: red;
+  margin-top: 0px
+}
